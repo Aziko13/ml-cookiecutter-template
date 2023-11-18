@@ -1,4 +1,4 @@
-# {{repo-name}}
+# {{cookiecutter.repo_name}}
 
 Short description of the project
 
