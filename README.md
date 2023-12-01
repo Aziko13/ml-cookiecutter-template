@@ -25,3 +25,5 @@ $ conda install cookiecutter
 * Run `cookiecutter https://github.com/Aziko13/ml-cookiecutter-template.git`
 * Cookiecutter will ask some questions and then will create repos skeleton
 
+## The resulting directory structure 
+TBA
