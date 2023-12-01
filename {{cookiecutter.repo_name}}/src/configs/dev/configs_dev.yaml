@@ -1,0 +1,24 @@
+# Data generation
+
+num_days_train: 3
+num_days_validation: 1
+num_days_test: 1
+num_days_lag: 0
+sample: 1 # 0-99, use 99 to use all available data
+bucket_salt: test
+specific_dataset: null # For example: 20221014114044
+
+# Feature stats
+features_conf:
+  test_feature_1:
+    type: "categorical"
+    dtype: "string"
+    preproc: "ohe"
+    freq_capping: 1000
+
+# Model
+label: "target"
+model_name: "test_model"
+batch_size: 4096
+num_epochs: 1
+learning_rate: 0.001
