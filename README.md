@@ -26,6 +26,7 @@ $ conda install cookiecutter
 * Cookiecutter will ask some questions and then will create repos skeleton
 
 ## The resulting directory structure 
+```
 ├── docs               <- Open-source license if one is chosen
 │   ├── Makefile       <- Makefile with convenience commands like `make setup` or `make test`
 ├── kubeflow           <- Kueflow pipeliens scripts
@@ -45,3 +46,4 @@ $ conda install cookiecutter
 ├── .gitignore         <- Git ingonre file
 ├── Dockerfile         <- Docker file
 ├── README.md          <- The top-level README for developers using this project.
+```
